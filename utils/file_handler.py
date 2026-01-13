@@ -1,0 +1,1 @@
+## Task 1.1  Read Sales data with Encoding handling
