@@ -15,5 +15,4 @@ def read_sales_data(filename, file_encoder):
     except FileNotFoundError:
         print ("File not found")
     return []
-
 read_sales_data("data/sales_data.txt", "utf-8")
