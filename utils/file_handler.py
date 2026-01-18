@@ -1,7 +1,6 @@
 ## Task 1.1  Read Sales data with Encoding handling
 
 import csv
-
 def read_sales_data(filename, file_encoder):
     try:
         data= []
@@ -12,17 +11,13 @@ def read_sales_data(filename, file_encoder):
                 if row and any(field.strip() for field in row):  # removes empty lines
                     data.append('|'.join(row))
         return data
-    except UnicodeEncodeError:
+    except UnicodeDecodeError:
         print(f"File cannot be decoded using {file_encoder}")
         return []
     except FileNotFoundError:
         print (f"File not found")
         return []
     
-read_sales_data('data/sales_data.txt', 'utf-8')
-
-lines= read_sales_data('data/sales_data.txt', 'utf-8')
-len(lines)
 
 # Task 1.2 - Parse and clean data
 
@@ -62,9 +57,7 @@ def parse_transactions(raw_lines):
         )
 
     return data
-parse_transactions(lines)
-parsed_data= parse_transactions(lines)
-len(parsed_data)
+
 
 # Task 1.3 Data Validation & Filtering
 
@@ -168,6 +161,4 @@ def validate_and_filter(transactions, region= None, min_amount= None, max_amount
     }
 
     return filter_summary, valid_transactions
-
-summary= validate_and_filter(parsed_data, region= "North", min_amount= 300, max_amount= 15000)
 
