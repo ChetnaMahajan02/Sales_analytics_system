@@ -18,6 +18,7 @@ def read_sales_data(filename, file_encoder):
         print (f"File not found")
         return []
     
+    
 
 # Task 1.2 - Parse and clean data
 
@@ -159,6 +160,6 @@ def validate_and_filter(transactions, region= None, min_amount= None, max_amount
         "filtered_by_amount": filtered_by_amount,
         "final_count": len(valid_transactions)
     }
-
-    return filter_summary, valid_transactions
+    
+    return valid_transactions, filter_summary
 
