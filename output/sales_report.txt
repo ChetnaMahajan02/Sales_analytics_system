@@ -1,0 +1,36 @@
+                         SALES REPORT
+Generated on: 2026-01-20 18:29:35
+Total Transactions Analyzed: 2
+==================================================
+
+OVERALL SUMMARY
+--------------------------------------------------
+total_revenue: ₹231,289.00
+total_transactions: 2
+average_order_value: ₹115,644.50
+date_range: 2024-12-02 to 2024-12-30
+
+REGION-WISE PERFORMANCE
+--------------------------------------------------
+Region         Total Sales        Amount      Percentage of total     Transaction Count
+East           ₹231,289.00₹231,289.00100.02
+
+TOP 5 PRODUCTS
+--------------------------------------------------
+Product Name         Quantity Sold     Revenue
+Monitor             9₹131,319.00
+Monitor LED         10₹99,970.00
+
+TOP 5 CUSTOMERS
+--------------------------------------------------
+Customer ID         Total Spent     Order_count
+C023                ₹131,319.001
+C024                ₹99,970.001
+
+DAILY SALES TREND
+--------------------------------------------------
+Date          Revenue      Transactions        unique_customers
+2024-12-30     ₹131,319.0021
+
+PRODUCT PERFORMANCE ANALYSIS
+--------------------------------------------------
