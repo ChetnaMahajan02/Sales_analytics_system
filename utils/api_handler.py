@@ -2,6 +2,7 @@
 # TASK 3.1: 
 # # a) Fetch Product Details
 import requests
+import csv
 
 def fetch_all_products(limit= 100):
     url= "https://dummyjson.com/products"
