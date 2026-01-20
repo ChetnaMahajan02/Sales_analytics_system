@@ -1,36 +1,55 @@
                          SALES REPORT
-Generated on: 2026-01-20 18:29:35
-Total Transactions Analyzed: 2
+Generated on: 2026-01-20 22:24:39
+Total Transactions Analyzed: 12
 ==================================================
+
 
 OVERALL SUMMARY
 --------------------------------------------------
-total_revenue: ₹231,289.00
-total_transactions: 2
-average_order_value: ₹115,644.50
-date_range: 2024-12-02 to 2024-12-30
+total_revenue: ₹832,848.00
+total_transactions: 12
+average_order_value: ₹69,404.00
+date_range: 2024-12-03 to 2024-12-24
 
 REGION-WISE PERFORMANCE
 --------------------------------------------------
 Region         Total Sales        Amount      Percentage of total     Transaction Count
-East           ₹231,289.00₹231,289.00100.02
+West             ₹832,848.00  ₹832,848.00  100.00%  12
 
 TOP 5 PRODUCTS
 --------------------------------------------------
 Product Name         Quantity Sold     Revenue
-Monitor             9₹131,319.00
-Monitor LED         10₹99,970.00
+Laptop Premium      5₹374,095.00
+Monitor             16₹310,745.00
+Webcam              8₹34,072.00
+Headphones          9₹26,541.00
+External Hard Drive 1TB7₹24,360.00
 
 TOP 5 CUSTOMERS
 --------------------------------------------------
 Customer ID         Total Spent     Order_count
-C023                ₹131,319.001
-C024                ₹99,970.001
+C010                ₹374,095.001
+C024                ₹149,481.001
+C005                ₹102,494.002
+C008                ₹82,695.002
+C009                ₹56,211.003
 
 DAILY SALES TREND
 --------------------------------------------------
 Date          Revenue      Transactions        unique_customers
-2024-12-30     ₹131,319.0021
+2024-12-03     ₹26,541.0011
+2024-12-06     ₹34,072.0011
+2024-12-07     ₹154,693.0055
+2024-12-13     ₹385,789.0022
+2024-12-18     ₹70,464.0011
+2024-12-22     ₹11,808.0011
+2024-12-24     ₹149,481.0011
 
 PRODUCT PERFORMANCE ANALYSIS
 --------------------------------------------------
+Best Selling Day: ('2024-12-13', 385789.0, 2)
+ API ENRICHED DATA SUMMARY
+--------------------------------------------------
+Total Products Enriched: 0 out of 12
+Enrichment Success Rate: 0.00%
+Products Not Enriched: 12
