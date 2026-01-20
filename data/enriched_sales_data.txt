@@ -1,3 +1,13 @@
 TransactionID|Date|ProductID|ProductName|Quantity|UnitPrice|CustomerID|Region|API_category|API_brand|API_rating|API_match
-T050|2024-12-02|P104|Monitor LED|10|9997.0|C024|East||||False
-T033|2024-12-30|P104|Monitor|9|14591.0|C023|East||||False
+T004|2024-12-07|P109|Wireless Mouse|9|1359.0|C008|West||||False
+T066|2024-12-06|P105|Webcam|8|4259.0|C023|West||||False
+T055|2024-12-07|P105|Webcam HD|6|2977.0|C009|West||||False
+T032|2024-12-22|P103|Keyboard|8|1476.0|C009|West||||False
+T019|2024-12-24|P104|Monitor|9|16609.0|C024|West||||False
+T020|2024-12-13|P110|Laptop Charger|6|1949.0|C005|West||||False
+T048|2024-12-13|P101|Laptop Premium|5|74819.0|C010|West||||False
+T017|2024-12-07|P102|Mouse|10|944.0|C007|West||||False
+T038|2024-12-03|P106|Headphones|9|2949.0|C009|West||||False
+T039|2024-12-18|P104|Monitor|3|23488.0|C008|West||||False
+T043|2024-12-07|P104|Monitor|4|22700.0|C005|West||||False
+T047|2024-12-07|P108|External Hard Drive 1TB|7|3480.0|C006|West||||False
