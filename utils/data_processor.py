@@ -52,7 +52,7 @@ def region_wise_sales(transactions):
             reverse= True
         )
     )
-    return sorted_region_sales
+    return sorted_region_sales, grand_total, pct, region_sales
 
 # c) Top Selling Products---
 def top_selling_products(transactions, top_n):
@@ -64,7 +64,7 @@ def top_selling_products(transactions, top_n):
             qty= int(txn.get("Quantity", 0))
             price= float(txn.get("UnitPrice", 0.0))
             revenue= qty * price
-        except (ValueError, TypeError, KeyError):
+        except (ValueError, TypeError, KeyError):   
             continue
         if p_name not in product_sales:
             product_sales[p_name]= {
@@ -74,6 +74,7 @@ def top_selling_products(transactions, top_n):
             }
         product_sales[p_name]["total_sales"] += revenue
         product_sales[p_name]["total_quantity"] += qty
+        return product_sales
 
     # sort products by total sales in descending order
     sorted_products= sorted(
